@@ -7,7 +7,7 @@ A HID (Human Interface Device) attack chain using a Digispark ATtiny85 programme
 
 ---
 
-## Pre-Requisitos
+## Pré-Requisitos
 Para implementar este projeto, você precisará:
 
 1. Um dispositivo USB que possa ser configurado como HID (como um Rubber Ducky, Arduino, ou Digispark) - Para este progeto, usaremos o último;
@@ -50,7 +50,7 @@ Este projeto é para fins educacionais e de teste de segurança em ambientes con
 		- Registra o serviço com o launchd para garantir execução automática na inicialização.
 
 
-	- Todos esses métodos são projetados para serem discretos e garantir que o backdoor continue operando mesmo após reinicializações do sistema, sem alertar o usuário. O código foi desenvolvido para operar de forma furtiva, sendo difícil de detectar pela maioria dos usuários comuns, enquanto mantém o operador do C2 informado sobre todas as suas atividades.
-	- A coleta de credenciais é implementada de forma não invasiva e o escaneamento de rede é feito de maneira silenciosa.
+- Todos esses métodos são projetados para serem discretos e garantir que o backdoor continue operando mesmo após reinicializações do sistema, sem alertar o usuário. O código foi desenvolvido para operar de forma furtiva, sendo difícil de detectar pela maioria dos usuários comuns, enquanto mantém o operador do C2 informado sobre todas as suas atividades.
+- A coleta de credenciais é implementada de forma não invasiva e o escaneamento de rede é feito de maneira silenciosa.
 
-Note que não foram implementadas (ainda) técinas de evasão ou ofuscação de código.
+**Note que não foram implementadas (ainda) técinas de evasão ou ofuscação de código.**
